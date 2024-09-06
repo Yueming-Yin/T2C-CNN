@@ -100,3 +100,6 @@ Codes for this section is "Model_Inference.ipynb". It includes following steps:
     4. Set the "photon_scaling" to scale all input intensities by dividing the constant "photon_scaling". If it is set to 1, it will normalize fluorescent spots within individule binding events.
     5. Set the "balance" to False if you want to test all binding sites. Otherwise, it will randomly choosen equal number of binding sites from each domain to test.
 2. Ablation study on the importance of test frames in every binding events, including no mask (model inference)
+    1. Set the "model_read_token", which is the name of the model file under the "./model_file/" directory
+    2. Set "save_preditons = True" if you would like to save model predictions into the f"./results/test_predictions/{model_save_token}/" directory
+3. Draw figures to visualize the reuslts of ablaton study
