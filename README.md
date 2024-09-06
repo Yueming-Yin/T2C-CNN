@@ -90,4 +90,5 @@ patches_subtracted  |  frame_{idx}/spot_{idx}.tif  |  The cropped, background-co
 
 It would also generate a index table at f"{data_dir}/spots/domain_{process_domain}_indexes_linked.csv". This table can be directly read and construct dataset in our main codes. In the "./data/spots/" directory, we provide the four index files used in this study.
 
-# Model Inference
+# Model Inference and Analysis
+## Model Inference
