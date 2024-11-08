@@ -1,7 +1,7 @@
 # T2C-CNN
 Codes and data for the paper named "Discriminating Single-Molecule Binding Event from Diffraction-Limited Fluorescence".
 
-- This work is accorded NTU Technique Disclosure application number 2024-299. All rights reserved by Yin Yueming (yueming.yin@ntu.edu.sg), Lipo Wang (elpwang@ntu.edu.sg), Thorsten Wohland (twohland@nus.edu.sg), Nithin Pathoor (nithin@nus.edu.sg) and Shao Ren Sim (shaoren.sim@u.nus.edu).
+- This work is accorded Singapore provisional patent application number 10202403434P. All rights reserved by Yin Yueming (yueming.yin@ntu.edu.sg), Lipo Wang (elpwang@ntu.edu.sg), Thorsten Wohland (twohland@nus.edu.sg), Nithin Pathoor (nithin@nus.edu.sg) and Shao Ren Sim (shaoren.sim@u.nus.edu).
 
 # Environments
 - Anaconda
