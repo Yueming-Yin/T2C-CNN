@@ -122,4 +122,4 @@ By directly runing Result_Visualization.ipynb, you are expected to get the follo
 
 <img src="plots/all_measurement_plots.png" alt="all_measurement_plots" width="1500"/>
 
-The ground truth and model predictions are saved under "results/prediction_visualization".
+- The ground truth and model predictions are saved under "results/prediction_visualization".
