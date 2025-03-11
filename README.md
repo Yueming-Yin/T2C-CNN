@@ -99,11 +99,12 @@ Codes for this section is "Model_Inference.ipynb". It includes following steps:
     3. Set the "event_per_group" to determine how many binding events you would like to be involved. For inferencing all binding events, set it to a large number like 1000.
     4. Set the "photon_scaling" to scale all input intensities by dividing the constant "photon_scaling". If it is set to 1, it will normalize fluorescent spots within individule binding events.
     5. Set the "balance" to False if you want to test all binding sites. Otherwise, it will randomly choosen equal number of binding sites from each domain to test.
-2. Ablation study on the importance of test frames in every binding events, including no mask (model inference). Usage:
+2. Ablation study on the importance of test frames in every binding events, including the no mask setting (corresponding to normal model inference). Usage:
     1. Set the "model_read_token", which is the name of the model file under the "./model_file/" directory
     2. Set "save_preditons = True" if you would like to save model predictions into the f"./results/test_predictions/{model_save_token}/" directory. Our ablation study results have been uploaded in the "./results/test_predictions/best_model_CNN_row_image_patches_temporal2channel-Inference/" directory.
     3. Set "frame_fractions" to customize the mask ranges, where the element "None" indicate no mask. 
 3. Draw figures to visualize the reuslts of ablaton study. Tips:
-    - If you have run the above cells, this cell will draw the figure without the need to set anything
+    - If you have run the above cells, this cell will draw and save the figure without the need to set anything
     - The baseline performance was estimated by the probability distribution function (PDF) on all binding lengths
 4. Visualize frame correlations: This is the codes for visualize frame correlations within individual binding events to reflect binding dynamics for different domains.
+    - If you have run the above cells, this cell will draw and save the figure without the need to set anything
