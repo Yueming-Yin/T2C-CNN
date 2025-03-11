@@ -103,6 +103,10 @@ Codes for this section is "Model_Inference.ipynb". It includes following steps:
     1. Set the "model_read_token", which is the name of the model file under the "./model_file/" directory
     2. Set "save_preditons = True" if you would like to save model predictions into the f"./results/test_predictions/{model_save_token}/" directory. Our ablation study results have been uploaded in the "./results/test_predictions/best_model_CNN_row_image_patches_temporal2channel-Inference/" directory.
     3. Set "frame_fractions" to customize the mask ranges, where the element "None" indicate no mask. 
+    4. Below is the expected output:
+    
+        <img src="plots/mask_comparison.png" alt="mask_comparison" width="800"/>
+
 3. Draw figures to visualize the reuslts of ablaton study. Tips:
     - If you have run the above cells, this cell will draw and save the figure without the need to set anything
     - The baseline performance was estimated by the probability distribution function (PDF) on all binding lengths
