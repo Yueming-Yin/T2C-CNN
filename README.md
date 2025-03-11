@@ -118,7 +118,7 @@ Codes for this section is "Model_Inference.ipynb". It includes following steps:
     - If you have run the above cells, this cell will draw and save the figure without the need to set anything
 
 # Result Visualization
-By directly runing Result_Visualization.ipynb, you are expected to get the following output figure to reproduce the result visualziation in our paper:
+By directly runing "Result_Visualization.ipynb", you are expected to get the following output figure to reproduce the result visualziation in our paper:
 
 <img src="plots/all_measurement_plots.png" alt="all_measurement_plots" width="1500"/>
 
