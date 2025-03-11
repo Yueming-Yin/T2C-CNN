@@ -1,5 +1,5 @@
 # T2C-CNN
-Codes and data for the paper named "Discriminating Single-Molecule Binding Event from Diffraction-Limited Fluorescence".
+Codes and data for the paper named "Discriminating Single-Molecule Binding Event from Diffraction-Limited Fluorescence". Under Review.
 
 - This work is accorded Singapore provisional patent application number 10202403434P. All rights reserved by Yin Yueming (yueming.yin@ntu.edu.sg), Lipo Wang (elpwang@ntu.edu.sg), Thorsten Wohland (twohland@nus.edu.sg), Nithin Pathoor (nithin@nus.edu.sg) and Shao Ren Sim (shaoren.sim@u.nus.edu).
 
@@ -105,10 +105,21 @@ Codes for this section is "Model_Inference.ipynb". It includes following steps:
     3. Set "frame_fractions" to customize the mask ranges, where the element "None" indicate no mask. 
     4. Below is the expected output:
     
-        <img src="plots/mask_comparison.png" alt="mask_comparison" width="800"/>
+        <img src="plots/mask_comparison.png" alt="mask_comparison" width="1000"/>
+
+    5. Here, we also provide comprehensive ablation study results on the proposed T2C CNN and two models (ED-TCN and SqueezeTime) relative to it.
+
+        <img src="plots/Ablation_study.png" alt="Ablation_study" width="1000"/>
 
 3. Draw figures to visualize the reuslts of ablaton study. Tips:
     - If you have run the above cells, this cell will draw and save the figure without the need to set anything
     - The baseline performance was estimated by the probability distribution function (PDF) on all binding lengths
 4. Visualize frame correlations: This is the codes for visualize frame correlations within individual binding events to reflect binding dynamics for different domains.
     - If you have run the above cells, this cell will draw and save the figure without the need to set anything
+
+# Result Visualization
+By directly runing Result_Visualization.ipynb, you are expected to get the following output figure to reproduce the result visualziation in our paper:
+
+<img src="plots/all_measurement_plots.png" alt="all_measurement_plots" width="1500"/>
+
+The ground truth and model predictions are saved under "results/prediction_visualization".
