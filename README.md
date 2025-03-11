@@ -3,6 +3,13 @@ Codes and data for the paper named "Discriminating Single-Molecule Binding Event
 
 - This work is accorded Singapore provisional patent application number 10202403434P. All rights reserved by Yin Yueming (yueming.yin@ntu.edu.sg), Lipo Wang (elpwang@ntu.edu.sg), Thorsten Wohland (twohland@nus.edu.sg), Nithin Pathoor (nithin@nus.edu.sg) and Shao Ren Sim (shaoren.sim@u.nus.edu).
 
+# Introduction
+
+<figure>
+  <img src="plots/Raw_data.png" alt="Raw Data" width="1000"/>
+  <figcaption>Figure 1: An example of raw images and time courses from the DNA-PAINT experiments used in this study. a) Schematic of the two DNA binding domains used to collect diffraction-limited fluorescent spots (adapted from \cite{wade2019124}). Both domains share the same dye ("ATO532") and strand ("10nt P3"), but differ in their complementary sequences: Domain 1 uses "8nt P3’" (a partial complement of P3), while Domain 2 uses the fully complementary "10nt P3’". Example frames from the raw video data are shown next to the corresponding domains. b) Example time courses annotated with diffraction-limited fluorescent spots from binding events in Domain 1 and Domain 2. Domain 2 exhibits longer binding durations than Domain 1, while both show similar intensity jumps. <strong>The length-based method (classic)</strong> classifies molecules based on the total binding event durations per molecule, whereas <strong>the proposed image-based method</strong> classifies individual binding events based on their diffraction-limited fluorescent spots.</figcaption>
+</figure>
+
 # Environments
 - Anaconda
 - Pytorch
