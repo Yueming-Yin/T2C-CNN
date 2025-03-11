@@ -83,8 +83,8 @@ Folder name | File type | Desciption
 images  |  frame_{idx}.png  |  The visualization of spot localizations on the row images
 images_background  |  frame_{idx}.tif  |  The row fluorescence image with all detected fluorescent spots subtracted
 --- |  mean_background_intensity.csv  |  The mean background intensities calculated from images_background
-patches  |  frame_{idx}/spot_{idx}.tif  |  The cropped fluorescent spots from the row fluorescence image
-patches_subtracted  |  frame_{idx}/spot_{idx}.tif  |  The cropped, background-corrected and -masked fluorescent spots
+patches  |  frame_{idx+1}/spot_{idx+1}.tif  |  The cropped fluorescent spots from the row fluorescence image
+patches_subtracted  |  frame_{idx+1}/spot_{idx+1}.tif  |  The cropped, background-corrected and -masked fluorescent spots
 
 - Example data is provided in each folder
 
