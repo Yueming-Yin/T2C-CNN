@@ -16,8 +16,7 @@ Codes and data for the paper named "Discriminating Single-Molecule Binding Event
 - Jupyter
 - GPU with CUDA
 
-# Get Started With A New Conda Virtual Environment
-## Anaconda Installation
+# Installation
 For installing anaconda on your OS, please refer to [Anaconda Installation](https://docs.anaconda.com/free/anaconda/install/).
 
 Once the anaconda is properly installed, one can create a new virtual environment by entering the following command in terminal:
