@@ -2,6 +2,8 @@
 Codes and data for the paper named "Discriminating Single-Molecule Binding Event from Diffraction-Limited Fluorescence". Under Review.
 
 - This work is accorded Singapore provisional patent application number 10202403434P. All rights reserved by Yin Yueming (yueming.yin@ntu.edu.sg), Lipo Wang (elpwang@ntu.edu.sg), Thorsten Wohland (twohland@nus.edu.sg), Nithin Pathoor (nithin@nus.edu.sg) and Shao Ren Sim (shaoren.sim@u.nus.edu).
+- This work is supported by the Ministry of Education, Singapore, under its Research Centre of Excellence award to the Institute for Digital Molecular Analytics (IDMxS, grant: EDUN C-33-18-279-V12) (Y.Y. and K.S.). 
+- This work was also supported by the Ministry of Education, Singapore under grant No. MOE T2EP50120-0037 (N.P.).
 
 # Introduction
 
