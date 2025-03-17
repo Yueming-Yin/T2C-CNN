@@ -11,6 +11,7 @@ Codes and data for the paper named "Discriminating Single-Molecule Binding Event
 </figure>
 
 # Environments
+- Linux
 - Anaconda
 - Pytorch
 - Jupyter
@@ -26,7 +27,7 @@ conda create --name T2C_CNN --file ./requirements.txt
 conda activate T2C_CNN
 ```
 
- - For configuring jupyter (has been installed from requirements.txt), please refer to [Jupyter Configuration](https://jupyter-server.readthedocs.io/en/latest/users/configuration.html).
+- For configuring jupyter (has been installed from requirements.txt), please refer to [Jupyter Configuration](https://jupyter-server.readthedocs.io/en/latest/users/configuration.html).
 
 # Data Preparation and Processing
 ## Data Preparation
