@@ -27,35 +27,7 @@ conda create --name T2C_CNN --file ./requirements.txt
 conda activate T2C_CNN
 ```
 
-## Jupyter Configuration
-For configuring jupyter (has been installed from requirements.txt), please refer to [Jupyter Configuration](https://jupyter-server.readthedocs.io/en/latest/users/configuration.html).
-
-Here, we provide our commands of configuring jupyter with conda:
-```bash
-jupyter notebook --generate-config
-ipython
->>> from notebook.auth import passwd
->>> passwd()
-(enter your passwords)
-(conform your passwords)
-Output: [your password key]
-```
-
-Then, open your generated jupyter_notebook_config.py file (usually in the '/home/.jupyter' directory) to add the following commands:
-```python
-c.NotebookApp.ip = '*'
-c.NotebookApp.port = [port id, e.g., 8888]
-c.NotebookApp.open_browser = False
-c.NotebookApp.allow_remote_access = True
-c.NotebookApp.password = [your password key]
-c.NotebookApp.notebook_dir = [your default workdir (should include the T2C-CNN-main folder)]
-```
-
-To start jupyter notebook, please enter this commond in the terminal:
-```bash
-jupyter notebook
-```
-Then, one can access jupyter notebook at [your server's ip]:[your port id] in the same domain with the server.
+ - For configuring jupyter (has been installed from requirements.txt), please refer to [Jupyter Configuration](https://jupyter-server.readthedocs.io/en/latest/users/configuration.html).
 
 # Data Preparation and Processing
 ## Data Preparation
@@ -67,6 +39,12 @@ TIRF software  | .tif | Row fluorescent image sequence read from TIRF microscopy
 Picasso Localize  | .hdf5 | Localizations of fluorescent spots in the row fluorescent image sequence
 Picasso Render  | .hdf5 | Localizations of grouped fluorescent spots in the reconstructed super-resolution image after drift correction
 Picasso Render  | .txt | Drift tragectories read from grouped fluorescent spots
+
+For a complete package of row data, please download the "[On_time_varied_data.tar.xz]()" into the "row_data" folder and decompress it with the following command in a linux terminal:
+```bash
+cd row_data
+tar -xJf On_time_varied_data.tar.xz
+```
 
 - For the installation and usage of Picasso, please refer to [Picasso](https://github.com/jungmannlab/picasso).
 
