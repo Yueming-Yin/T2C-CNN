@@ -71,7 +71,7 @@ images_background  |  frame_{idx}.tif  |  The row fluorescence image with all de
 patches  |  frame_{idx+1}/spot_{idx+1}.tif  |  The cropped fluorescent spots from the row fluorescence image
 patches_subtracted  |  frame_{idx+1}/spot_{idx+1}.tif  |  The cropped, background-corrected and -masked fluorescent spots
 
-- Example data is provided in each folder
+- Example data is provided in "data/spots"
 
 It would also generate a index table at f"{data_dir}/spots/domain_{process_domain}_indexes_linked.csv". This table can be directly read and construct dataset in our main codes. In the "./data/spots/" directory, we provide the four index files used in this study.
 
